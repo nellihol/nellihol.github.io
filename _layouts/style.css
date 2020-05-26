@@ -1,6 +1,15 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header .intro-text .name {
+  font-family: 'Abiah Light';
+  border: 1px solid red;
+}
+
 header {
   color: #121640;
   background-color: #ffffff;

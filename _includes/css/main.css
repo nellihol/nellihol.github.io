@@ -32,8 +32,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: Poppins, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
 }
 
 hr.star-light,
@@ -73,7 +73,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .img-centered {

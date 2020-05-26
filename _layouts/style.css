@@ -1,2 +1,33 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+
+header {
+  color: #121640;
+  background-color: #ffffff;
+}
+
+.navbar-default {
+  background-color: #121640;
+}
+
+section.success {
+    color: #fff;
+    background: #121640;
+    border-bottom: 10px solid #f8c3d6;
+}
+
+section.portfolio {
+    background: #f8c3d6;
+    border-bottom: 10px solid #121640;
+}
+
+.btn-success {
+    color: #ffffff;
+    background-color: #a8003b;
+    border-color: #a8003b;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    color: #ffffff;
+    background-color: #a8003b;
+}

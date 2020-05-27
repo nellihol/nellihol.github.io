@@ -1,9 +1,57 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
 
+body, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+header .intro-text .name {
+  font-family: 'Abiah Light';
+  text-align: left;
+  line-height: 1;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+  color: #121640;
+}
+
+header .intro-text .skills {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: bold;
+    color: #a8003b;
+    text-align: left;
+    display: block;
+}
+
+
+
 header {
   color: #121640;
   background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+ align-items: center;
+}
+
+
+.header-container img{
+  width: 30%;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 968px) {
+  header .intro-text .name {
+    font-size: 7.75em;
+  }
+
+  .header-container img{
+    width: 30%;
+    margin-right: 30px;
+    padding: 20px;
+  }
 }
 
 .navbar-default {
@@ -30,4 +78,8 @@ section.portfolio {
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
     color: #ffffff;
     background-color: #a8003b;
+}
+
+.footer-above {
+  border-top: 10px solid #a8003b;
 }

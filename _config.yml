@@ -1,14 +1,14 @@
 # Site settings
 title: Nelli Holopainen UXE
 email: nelli.holopainen@gmail.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url: https://github.com/nellihol
+description: "Nelli Holopainen - User Experience Engineer. Current UX/HCI Master's degree student with a background in Front End Development.  I aim to be the missing link between the business, user and technology needs, using user research, rapid prototyping and modern web technologies to transform complex problems and pain points into elegant digital solutions."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "User experience engineer"
 meta_author: Nelli Holopainen
 
 # Google webmaster tools
-google_verify:
+google_verify: gJ4fEcVbztA1gxpaiPOQWi9ekJDcY6vcd3-PWkXL240
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

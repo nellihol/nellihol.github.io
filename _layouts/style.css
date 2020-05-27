@@ -20,17 +20,38 @@ header .intro-text .skills {
     font-weight: bold;
     color: #a8003b;
     text-align: left;
+    display: block;
 }
 
-@media (min-width: 768px)
-header .intro-text .name {
-    font-size: 7.75em;
-}
 
 
 header {
   color: #121640;
   background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+ align-items: center;
+}
+
+
+.header-container img{
+  width: 30%;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 968px) {
+  header .intro-text .name {
+    font-size: 7.75em;
+  }
+
+  .header-container img{
+    width: 30%;
+    margin-right: 30px;
+    padding: 20px;
+  }
 }
 
 .navbar-default {

@@ -3,7 +3,7 @@ title: Nelli Holopainen UXE
 email: nelli.holopainen@gmail.com
 url: https://github.com/nellihol
 description: "Nelli Holopainen - User Experience Engineer. Current UX/HCI Master's degree student with a background in Front End Development.  I aim to be the missing link between the business, user and technology needs, using user research, rapid prototyping and modern web technologies to transform complex problems and pain points into elegant digital solutions."
-keywords: "your keywords, separated by commas"
+keywords: "User experience, UX, UI, Design Thinking, Web Development, Front End development, Personas, Agile, Scrum, Interaction design, Graphic design"
 skills: "User experience engineer"
 meta_author: Nelli Holopainen
 
@@ -28,17 +28,16 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/nellihol
   - title: github
     url: http://github.com/nellihol
-  - linkedin: github
+  - title: twitter
+    url: http://twitter.com/nellihol
+  - title: linkedin
     url: https://www.linkedin.com/in/nelliholopainen/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+
 
 # Credits content
 credits: 'yahoo'

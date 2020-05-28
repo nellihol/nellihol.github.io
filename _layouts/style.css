@@ -1,6 +1,11 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
 
+a {
+  color: #121640;
+  text-decoration: underline;
+}
+
 body, .navbar-brand {
   font-family: 'Poppins', sans-serif;
 }
@@ -65,6 +70,10 @@ section.success {
 section.portfolio {
     background: #f8c3d6;
     border-bottom: 10px solid #121640;
+}
+
+section.success .profile-image {
+   float: right;
 }
 
 .btn-success {

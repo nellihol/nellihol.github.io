@@ -9,6 +9,15 @@
                     <h2>About</h2>
                     <p>Current <strong>UX/HCI Master's degree student</strong>  with a background in <strong>Front End Development</strong>. I aim to be the missing link between the business, user and technology needs, using user research, rapid prototyping and modern web technologies to transform complex problems and pain points into elegant digital solutions.</p>
                     <p>I am a strong communicator and I have demonstrated this in cross-functional agile teams by collaborating with various stakeholders including C-suite, development lead etc.</p>
+                    <div class="col-md-4">
+                        <ul class="list-inline">
+                            {% for network in site.social %}
+                            <li>
+                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                            </li>
+                        {% endfor %}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,10 +2,12 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: circus.png
+img: foundry.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: May 2020
+client: QUT Entrepreneurship
+category: User Experience
+cta: How did it go?
+description: Researching the user experience of the online presence of QUT Entrepreneurship program. Creating user personas and design ideas and iterations.
+description-long: Generally speaking, the focus lies on the Orbit within this portfolio, even as there exist many different pages of QUT Entrepreneurship with redundant information, only the content of the QUT Orbit is analysed and improved. The described and presented prototype later on displays inter-face improvement ideas, without commenting the technical architecture or implementation. Furthermore, it has to be mentioned, that not all content is showcased within this portfolio, it moreover presents snippets of content and logic order. In addition, the target audience has been set to current as well as possible future foundry members.
 ---

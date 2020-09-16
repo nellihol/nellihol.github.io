@@ -7,7 +7,7 @@ a {
 
 p {
   font-weight: 200;
-  max-width: 700px;
+  max-width: 850px;
 }
 
 .portfolio-modal a {
@@ -99,6 +99,11 @@ section.success {
 
 section.portfolio {
     background: #f8c3d6;
+    margin-bottom: -160px;
+    padding-bottom: 150px;
+    -webkit-transform: skewY(-7deg);
+    -ms-transform: skewY(-7deg);
+    transform: skewY(-7deg);
 }
 
 section.success .profile-image {
@@ -120,6 +125,15 @@ section.success .profile-image {
 .portfolio-row {
  margin-bottom: 20px;
  position: relative;
+ -webkit-transform: skewY(7deg);
+-ms-transform: skewY(7deg);
+transform: skewY(7deg);
+}
+
+.portfolio .text-center {
+    -webkit-transform: skewY(7deg);
+  -ms-transform: skewY(7deg);
+  transform: skewY(7deg);
 }
 
 .portfolio .post-category {
@@ -144,4 +158,9 @@ section.success .profile-image {
 .portfolio-item a:hover {
   text-decoration: underline;
   color: #121640;
+}
+
+.XL-screen-restriction {
+  max-width: 1600px;
+  margin: 0 auto;
 }
